@@ -1,0 +1,34 @@
+2024-11-08 09:54:36,648 - INFO - ====== WebDriver manager ======
+2024-11-08 09:54:41,375 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-08 09:54:41,562 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-08 09:54:41,703 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-08 09:54:41,999 - INFO - WebDriver version 130.0.6723.116 selected
+2024-11-08 09:54:42,003 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.116/win32/chromedriver-win32.zip
+2024-11-08 09:54:42,003 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/130.0.6723.116/win32/chromedriver-win32.zip
+2024-11-08 09:54:42,118 - INFO - Driver downloading response is 200
+2024-11-08 09:54:42,412 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-08 09:54:42,729 - INFO - Driver has been saved in cache [C:\Users\Elena\.wdm\drivers\chromedriver\win64\130.0.6723.116]
+2024-11-08 09:54:44,163 - INFO - Chrome drive configured
+2024-11-08 09:54:54,280 - INFO - Launched Youtube
+2024-11-08 09:54:54,540 - INFO - Clicked on accept all button to close the cookies pop-up
+2024-11-08 09:55:12,410 - INFO - Searching video with title: selenium
+2024-11-08 09:55:13,808 - INFO - Waiting for video results
+2024-11-08 09:55:15,932 - INFO - Clicked on the first video
+2024-11-08 09:55:15,932 - INFO - Wait for the video to be played
+2024-11-08 09:55:42,106 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/a2c9fb928a6dd0b7684ffbdf92e0bd3e
+2024-11-08 09:55:46,204 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002290536E160>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a2c9fb928a6dd0b7684ffbdf92e0bd3e
+2024-11-08 09:55:50,300 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002290536E2E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a2c9fb928a6dd0b7684ffbdf92e0bd3e
+2024-11-08 09:55:58,464 - INFO - Ended the session
+2024-11-08 09:57:42,103 - INFO - ====== WebDriver manager ======
+2024-11-08 09:57:46,442 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-08 09:57:46,607 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-08 09:57:46,722 - INFO - Driver [C:\Users\Elena\.wdm\drivers\chromedriver\win64\130.0.6723.116\chromedriver-win32/chromedriver.exe] found in cache
+2024-11-08 09:57:47,964 - INFO - Chrome drive configured
+2024-11-08 09:57:58,476 - INFO - Launched Youtube
+2024-11-08 09:57:58,604 - INFO - Clicked on accept all button to close the cookies pop-up
+2024-11-08 09:58:06,467 - INFO - Entered youtube query:python
+2024-11-08 09:58:06,744 - INFO - Searching video with title: python
+2024-11-08 09:58:08,568 - INFO - Waiting for video results
+2024-11-08 09:58:10,210 - INFO - Clicked on the first video
+2024-11-08 09:58:10,210 - INFO - Wait for the video to be played
+2024-11-08 09:58:21,590 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/5deebacd4737945cc5c499ffa97c37e3
