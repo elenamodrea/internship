@@ -1,9 +1,11 @@
-from screen_recorder import recording
+from youtube_usage import YoutubeUsage
+from youtube_logger import YoutubeLogger
+import time
 
 
 def main():
-    recording()
-
+    youtube_usage = YoutubeUsage()
+    youtube_usage.usage()
 
 if __name__ == "__main__":
     main()
