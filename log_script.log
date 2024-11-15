@@ -1,1 +1,7 @@
-[2024-11-09 13:42:21] - [ERROR] - [Unexpected error: Could not reach host. Are you offline?]
+[2024-11-15 11:17:38] - [INFO] - [Started recording video]
+[[2024-11-15 11:18:41] - [INFO] - [Launched Youtube]
+[2024-11-15 11:18:41] - [INFO] - [Clicked on accept all button to close the cookies pop-up]
+[2024-11-15 11:18:44] - [INFO] - [Searching video with title: Selenium]
+[2024-11-15 11:18:46] - [INFO] - [Waiting for video results]
+[2024-11-15 11:18:46] - [INFO] - [Clicked on the first video]
+[2024-11-15 11:18:46] - [INFO] - [Wait for the video to be played]
