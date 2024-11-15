@@ -105,7 +105,7 @@ class YoutubeUsage:
         # Wait for the video
         self.youtube_logger.log_message(self.youtube_logger.Level.INFO.value,
                                         "Wait for the video to be played")
-        time.sleep(120)
+        time.sleep(30)
 
     def usage(self):
         self.use_youtube()
