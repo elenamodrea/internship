@@ -1,0 +1,37 @@
+Ca sistem de operare voi folosi windows
+
+1. Am instalat python 3
+2. Am instalat selenium python API folosind comanda "python -m pip install selenium"
+3. Am instalat numpy folosind comanda "pip install numpy"
+4. Am instalat OpenCV folosind comanda "pip install opencv-python"
+5. Am instalat pyautogui folosind comanda "py -m pip install pyautogui"
+6. Am instalat pyaudio folosind comanda "python -m pip install pyaudio"
+7. Am instalat webdriver manager folosind comanda "pip install webdriver_manager"
+8. Am instalat pyaudio care contine optiunea de callback folosind comanda "pip install PyAudioWPatch".
+9. Am instalat pydub folosind comanda "pip install pydub"
+10. Am instalat moviepy folosind comanda "pip install moviepy"
+
+Pentru instalarea acestor librarii nu am intampinat nicio eroare.
+
+Probleme intampinate:
+1a. utilizarea chrome.exe in locul chromedriver.exe, iar din acest motiv imi accesa doar fereastra principala google.
+1b. versiunea google chrome din calculatorul meu este 	130.0.6723.58, iar chrome nu a lansat chromedrive pentru aceasta versiune.
+R: Pentru rezolvare am folosit webdriver manager
+
+2. Acceptare cookie(nu putea gasi butonul)
+R: solutia a fost debug in html youtube si am gasit faptul ca denumirea se afla in span
+
+3. Oprire pop-up pentru youtube premium(nu gasea butonul)
+R: solutia a fost debug in html youtube si am gasit faptul ca denumirea era gresita
+
+ 
+4. pentru audio recording librarira pyaudio nu are optiunea de loopback
+R: folosirea unei librarii pyaudio cu optiune de callback(PyAudioPatch)
+
+5. verificarea conexiunii la internet. initial am incercat folosirea unui alt thread care verifica in fiecare secunda daca exista conexiune la internet. Problema: din cauza implementarii mele nu puteam anunta in mod instant thread-ul care se ocupa de youtube ca a pierdut conexiune
+R: am rezolvat utilizand timeout pentru fiecare pas, iar la videoclip verificand daca nu mai inainteaza
+
+6. nu se oprea verificarea daca videoclipul este blocat nici cand se oprea timer-ul si se inchidea browser-ul
+R: am folosit un thread event pentru a anunta momentul in care se opreste timer-ul
+
+
